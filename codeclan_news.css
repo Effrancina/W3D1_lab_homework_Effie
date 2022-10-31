@@ -7,13 +7,17 @@ body > header {
     padding: 16px;
     background-color: dodgerblue;
     color: white;
+    
 }
 
 header > nav > ul {
     list-style: none;
+    
 }
 #password{
     list-style: none;
+    margin: 0;
+   
 }
 
 header > nav > ul > li > a {
@@ -24,7 +28,37 @@ header > nav > ul > li > a {
     color: white;
 }
 
+main > article{
+    margin-left: 100px;
+    margin-top: 30px;
+}
 
+#textbox{
+    width: 1000px;
+    height:80px;
+    font-size:12pt;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#submit{
+    margin-top: 0px;
+    padding: 0;
+}
+
+hr.solid{
+    border-top: 3px solid #bbb;
+  }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+  }
 /* main > header > nav > ul > li {
     list-style: none; */
 /* } */
