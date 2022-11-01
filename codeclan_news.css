@@ -34,7 +34,7 @@ main > article{
 }
 
 #textbox{
-    width: 1000px;
+    width: 1555px;
     height:80px;
     font-size:12pt;
     padding: 0;
@@ -59,6 +59,10 @@ hr.solid{
     color: white;
     text-align: center;
   }
+
+#button{
+    margin-top: 0;
+}
 /* main > header > nav > ul > li {
     list-style: none; */
 /* } */
